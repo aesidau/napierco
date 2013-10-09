@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Orchestra Members Only"
+AuthUserFile /home/homevic/public_html/napierco/public_html/eso/protected/.htpasswd
+require valid-user
