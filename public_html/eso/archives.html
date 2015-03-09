@@ -1,182 +1,309 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Information about the upcoming concerts, rehearsals, players and conductor for the Essendon Symphony orchestra" />
-	<meta name="keywords" content="orchestra, concert, essendon, symphony, australia, melbourne, rehearsals, conductor, classical, moonee valley" />
-	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans' rel='stylesheet' type='text/css' />
-	<link rel="stylesheet" type="text/css" media="all" href="inland-earth.css" />
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-	<title>Essendon Symphony - Archives</title>
-	<base target="_top" />
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-32498654-1']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Information about the upcoming concerts, rehearsals, players and conductor for the Essendon Symphony orchestra">
+    <meta name="keywords" content="orchestra, concert, essendon, symphony, australia, melbourne, rehearsals, conductor, classical, moonee valley">
+    <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Droid+Sans" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap-3.3.2.min.css">
+    <link rel="stylesheet" href="css/orchestra.css">
+    <!-- HTML5 shim and Respond.js for IE8 support -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <title>Essendon Symphony - Archives</title>
+    <base target="_top">
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-32498654-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="container width960">
 
-<body>
-<div id="wrapper960" class="clearfix">
-	<div id="toplinks">
-		<ul class="toplinks_links">
-			<li><a href="/">Home</a></li>
-			<li><a href="upcoming-concerts.html">Upcoming Concerts</a></li>
-			<li><a href="rehearsals.html">Rehearsals</a></li>
-			<li><a href="archives.html">Archives</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="contact-us.html">Contact Us</a></li>
-		</ul>
-	</div>
+      <!-- Navigation bar at top of page -->
+      <!--<nav class="navbar">-->
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid fullwidth">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/">Home</a></li>
+              <li><a href="upcoming-concerts.html">Upcoming Concerts</a></li>
+              <li><a href="rehearsals.html">Rehearsals</a></li>
+              <li><a href="archives.html">Archives</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-	<div id="header" class="clearfix shadow">
-		<div id="sitetitle" class="clearfix">
-			<h1><a href="http://www.essendonsymphony.com/">The Essendon Symphony</a></h1>
-		</div>
+      <!-- Page title and in-page navbar -->
+      <nav class="navbar navbar-default sitetitle">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="http://www.essendonsymphony.com/">The Essendon Symphony</a>
+          </div>
+          <div id="navbar2">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#2014">2014</a></li>
+              <li><a href="#2013">2013</a></li>
+              <li><a href="#2012">2012</a></li>
+              <li><a href="#2011">2011</a></li>
+              <li><a href="#2010">2010</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-		<div id="nav" class="clearfix">
-			<ul>
-				<li><a href="#2014">2014</a></li>
-				<li><a href="#2013">2013</a></li>
-				<li><a href="#2012">2012</a></li>
-				<li><a href="#2011">2011</a></li>
-				<li><a href="#2010">2010</a></li>
-			</ul>
-		</div> 
-	</div>
-
-	<div id="content" class="clearfix shadow">
-		<h2>Concert Posters</h2>
-		<p>The orchestra has performed a wide range of concerts. To provide a taste of the many styles and formats, 
+      <!-- First paragraph -->
+      <div class="container-fluid shadow">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Concert Posters</h2>
+              <p>The orchestra has performed a wide range of concerts. To provide a taste of the many styles and formats, 
               we have assembled this collection of past concert posters from our archives together with some sample 
               recordings.</p>
-	</div>
+          </div>
+        </div>
+      </div>
 
-	<div id="extended" class="clearfix shadow">
-		<a name="2014"></a><h2 class="clear">2014</h2>
-		<h3 class="clear">November 2014 - Scheherazade</h3>
-		<img src="images/poster-2014-11-scheherazade-350x495.jpg" class="alignright" />
-		<ul>
-			<li>Aotearoa Overture - Lilburn</li>
-			<li>Horn Concerto no. 4 - Mozart (with soloist Sydney Braunfeld)</li>
-			<li>Scheherazade - Rimsky-Korsakov (with soloist Rohan Carr)</li>
-    </ul>
-		<h3 class="clear">August 2014 - Symphonic Bites</h3>
-		<img src="images/poster-2014-08-symphonicbites-350x495.jpg" class="alignright" />
-		<ul>
-			<li>5th Symphony (1st movement) - Beethoven</li>
-			<li>Dance of the Comedians - Smetana</li>
-			<li>The Magic Island - Stanhope</li>
-			<li>Cello Concerto in C (1st movement) - Haydn</li>
-			<li>Selections from West Side Story - Bernstein</li>
-    </ul>
-		<h3 class="clear">July 2014 - Sunday Romance (Winter Music in the Valley)</h3>
-		<img src="images/poster-2014-07-wintermusic-350x493.jpg" class="alignright" />
-		<ul>
-			<li>Violin Concerto No. 1 - Bruch (with soloist Cameron Jamieson)</li>
-			<li>Prince Igor Overture - Borodin</li>
-    </ul>
-		<a name="2013"></a><h2 class="clear">2013</h2>
-		<h3 class="clear">December 2013 - Christmas Celebration</h3>
-		<img src="images/poster-2013-12-christmascelebration-350x520.jpg" class="alignright" />
-		<ul>
-			<li>Emperor Waltzes - Strauss</li>
-			<li>Crown Imperial Coronation March - Walton</li>
-			<li>Three Dances from The Nutcracker - Tschaikovsky</li>
-			<li>Radetzky March - Strauss</li>
-			<li>Hallelujah Chorus - Handel</li>
-    </ul>
-		<h3 class="clear">September 2013 - Spring Concert</h3>
-		<img src="images/poster-2013-09-spring-350x609.jpg" class="alignright" />
-		<ul>
-			<li>Academic Festival Overture - Brahms</li>
-			<li>Karelia Suite - Sibelius</li>
-			<li>Bassoon Concerto - Mozart</li>
-			<li>Hungarian March - Berlioz</li>
-		</ul>
-		<h3 class="clear">May 2013 - Lemony Snicket: The Composer Is Dead</h3>
-		<img src="images/poster-2013-05-childrensconcert-350x495.jpg" class="alignright" />
-		<ul>
-			<li>The Composer Is Dead - Snicket and Stookey</li>
-			<li>1812 Overture - Tchaikovsky</li>
-			<li>Shepherds Hey - Grainger</li>
-			<li>Hoe-Down from Rodeo - Copland</li>
-			<li>Bassoon Concerto, 3rd Movement - Mozart</li>
-		</ul>
-		<a name="2012"></a><h2 class="clear">2012</h2>
-		<h3 class="clear">October 2012 - Halloween</h3>
-		<img src="images/poster-2012-10-halloween-350x481.jpg" class="alignright" />
-		<ul>
-			<li>Berceuse and Finale from The Firebird Suite - Stravinsky</li>
-			<li>Night on Bald Mountain - Mussorgsky</li>
-			<li>Thriller - Jackson</li>
-			<li>Danse Macabre - Saint Saens</li>
-			<li>Funeral March of a Marionette - Gounod</li>
-			<li>Highlights from Wicked the Musical - Schwartz</li>
-			<li>Pavane - Faure</li>
-		</ul>
-              <iframe width="480" height="270" src="http://www.youtube.com/embed/I9McSky_UJM" frameborder="0" allowfullscreen></iframe>
-		<iframe width="480" height="270" src="http://www.youtube.com/embed/Ovelg78qQHA" frameborder="0" allowfullscreen></iframe>
-              <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F72381943&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=false"></iframe>
-              <h3 class="clear">May 2012 - Classical Masters</h3>
-		<img src="images/poster-2012-05-classicalmasters-350x495.jpg" class="alignright" />
-		<ul>
-			<li>Egmont Overture - Beethoven</li>
-			<li>Magic Flute Overture - Mozart</li>
-			<li>Unfinished Symphony - Schubert</li>
-			<li>Oboe Concerto - Albinoni</li>
-		</ul>
-		<a name="2011"></a><h2 class="clear">2011</h2>
-		<h3 class="clear">December 2011 - Merry Melodies</h3>
-		<img src="images/poster-2011-12-christmas-350x495.jpg" class="alignright" />
-		<ul>
-			<li>Winter Wonderland - Bernard (arr. Custer)</li>
-			<li>Espana Rhapsody - Chabrier</li>
-			<li>Jupiter - Holst</li>
-			<li>Die Fledermaus Overture - Strauss</li>
-			<li>Sleigh Ride - Anderson</li>
-		</ul>
-		<h3 class="clear">September 2011 - The Proms</h3>
-		<img src="images/poster-2011-09-proms-350x495.jpg" class="alignright" />
-		<p>With Essendon Choral Society, Bella Mammas and Voce di Vino Rosso.</p>
-		<ul>
-			<li>New World Symphony - Dvorak</li>
-			<li>Pomp and Circumstance - Elgar</li>
-			<li>Sailor's Hornpipe - Wood</li>
-			<li>Nimrod - Elgar</li>
-		</ul>
-		<h3 class="clear">March 2011 - Sailing Around the World in 60 minutes</h3>
-		<img src="images/poster-2011-03-childrensconcert-350x495.jpg" class="alignright" />
-		<ul>
-			<li>Sailor's Hornpipe - Wood</li>
-			<li>In the Hall of the Mountain King - Grieg</li>
-			<li>Espana Cani - Marquina</li>
-			<li>Morning - Grieg</li>
-			<li>Themes from Star Wars - Williams</li>
-		</ul>
-		<a name="2010"></a><h2 class="clear">2010</h2>
-		<h3 class="clear">October 2010 - Music from Stage and Screen</h3>
-		<img src="images/poster-2010-10-musicstagescreen-350x483.jpg" class="alignright" />
-		<p>With Essendon Choral Society and Voce di Vino Rosso.</p>
-		<ul>
-			<li>West Side Story Medley - Bernstein</li>
-			<li>Theme from The West Wing - Walden</li>
-			<li>Marriage of Figaro Overture - Mozart</li>
-			<li>Themes from Star Wars - Williams </li>
-			<li>Anthem from the musical Chess - Andersson &amp; Ulvaeus</li>
-			<li>Hallelujah Chorus from Messiah - Handel</li>
-		</ul>
-	</div>
+      <!-- Second paragraph -->
+      <div class="container-fluid bright">
+        <div class="row">
+          <div class="col-md-12">
+            <a name="2014"></a><h2>2014</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>November 2014 - Scheherazade</h3>
+            <ul>
+              <li>Aotearoa Overture - Lilburn</li>
+              <li>Horn Concerto no. 4 - Mozart (with soloist Sydney Braunfeld)</li>
+              <li>Scheherazade - Rimsky-Korsakov (with soloist Rohan Carr)</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <p align="center"><img src="images/poster-2014-11-scheherazade-350x495.jpg"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>August 2014 - Symphonic Bites</h3>
+            <ul>
+              <li>5th Symphony (1st movement) - Beethoven</li>
+              <li>Dance of the Comedians - Smetana</li>
+              <li>The Magic Island - Stanhope</li>
+              <li>Cello Concerto in C (1st movement) - Haydn</li>
+              <li>Selections from West Side Story - Bernstein</li>
+            </ul>
+          </div>
+          <div class="col-mid-5">
+            <p align="center"><img src="images/poster-2014-08-symphonicbites-350x495.jpg" class="alignright"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>July 2014 - Sunday Romance (Winter Music in the Valley)</h3>
+            <ul>
+              <li>Violin Concerto No. 1 - Bruch (with soloist Cameron Jamieson)</li>
+              <li>Prince Igor Overture - Borodin</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <p align="center"><img src="images/poster-2014-07-wintermusic-350x493.jpg" class="alignright"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <a name="2013"></a><h2>2013</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>December 2013 - Christmas Celebration</h3>
+            <ul>
+              <li>Emperor Waltzes - Strauss</li>
+              <li>Crown Imperial Coronation March - Walton</li>
+              <li>Three Dances from The Nutcracker - Tschaikovsky</li>
+              <li>Radetzky March - Strauss</li>
+              <li>Hallelujah Chorus - Handel</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <p align="center"><img src="images/poster-2013-12-christmascelebration-350x520.jpg" class="alignright"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>September 2013 - Spring Concert</h3>
+            <ul>
+              <li>Academic Festival Overture - Brahms</li>
+              <li>Karelia Suite - Sibelius</li>
+              <li>Bassoon Concerto - Mozart</li>
+              <li>Hungarian March - Berlioz</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <p align="center"><img src="images/poster-2013-09-spring-350x609.jpg" class="alignright"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>May 2013 - Lemony Snicket: The Composer Is Dead</h3>
+            <ul>
+              <li>The Composer Is Dead - Snicket and Stookey</li>
+              <li>1812 Overture - Tchaikovsky</li>
+              <li>Shepherds Hey - Grainger</li>
+              <li>Hoe-Down from Rodeo - Copland</li>
+              <li>Bassoon Concerto, 3rd Movement - Mozart</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <p align="center"><img src="images/poster-2013-05-childrensconcert-350x495.jpg" class="alignright"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <a name="2012"></a><h2>2012</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>October 2012 - Halloween</h3>
+            <ul>
+              <li>Berceuse and Finale from The Firebird Suite - Stravinsky</li>
+              <li>Night on Bald Mountain - Mussorgsky</li>
+              <li>Thriller - Jackson</li>
+              <li>Danse Macabre - Saint Saens</li>
+              <li>Funeral March of a Marionette - Gounod</li>
+              <li>Highlights from Wicked the Musical - Schwartz</li>
+              <li>Pavane - Faure</li>
+            </ul>
+            <p align="center">
+            <iframe width="480" height="270" src="http://www.youtube.com/embed/I9McSky_UJM" frameborder="0" allowfullscreen></iframe>
+            <iframe width="480" height="270" src="http://www.youtube.com/embed/Ovelg78qQHA" frameborder="0" allowfullscreen></iframe>
+            </p>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F72381943&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=false"></iframe>
+          </div>
+          <div class="col-md-5">
+            <p align="center"><img src="images/poster-2012-10-halloween-350x481.jpg" class="alignright"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>May 2012 - Classical Masters</h3>
+            <ul>
+              <li>Egmont Overture - Beethoven</li>
+              <li>Magic Flute Overture - Mozart</li>
+              <li>Unfinished Symphony - Schubert</li>
+              <li>Oboe Concerto - Albinoni</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <p align="center"><img src="images/poster-2012-05-classicalmasters-350x495.jpg" class="alignright"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <a name="2011"></a><h2>2011</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>December 2011 - Merry Melodies</h3>
+            <ul>
+              <li>Winter Wonderland - Bernard (arr. Custer)</li>
+              <li>Espana Rhapsody - Chabrier</li>
+              <li>Jupiter - Holst</li>
+              <li>Die Fledermaus Overture - Strauss</li>
+              <li>Sleigh Ride - Anderson</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <p align="center"><img src="images/poster-2011-12-christmas-350x495.jpg" class="alignright"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>September 2011 - The Proms</h3>
+            <p>With Essendon Choral Society, Bella Mammas and Voce di Vino Rosso.</p>
+            <ul>
+              <li>New World Symphony - Dvorak</li>
+              <li>Pomp and Circumstance - Elgar</li>
+              <li>Sailor's Hornpipe - Wood</li>
+              <li>Nimrod - Elgar</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <p align="center"><img src="images/poster-2011-09-proms-350x495.jpg" class="alignright"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>March 2011 - Sailing Around the World in 60 minutes</h3>
+            <ul>
+              <li>Sailor's Hornpipe - Wood</li>
+              <li>In the Hall of the Mountain King - Grieg</li>
+              <li>Espana Cani - Marquina</li>
+              <li>Morning - Grieg</li>
+              <li>Themes from Star Wars - Williams</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <p align="center"><img src="images/poster-2011-03-childrensconcert-350x495.jpg" class="alignright"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <a name="2010"></a><h2>2010</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <h3>October 2010 - Music from Stage and Screen</h3>
+            <p>With Essendon Choral Society and Voce di Vino Rosso.</p>
+            <ul>
+              <li>West Side Story Medley - Bernstein</li>
+              <li>Theme from The West Wing - Walden</li>
+              <li>Marriage of Figaro Overture - Mozart</li>
+              <li>Themes from Star Wars - Williams </li>
+              <li>Anthem from the musical Chess - Andersson &amp; Ulvaeus</li>
+              <li>Hallelujah Chorus from Messiah - Handel</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <p align="center"><img src="images/poster-2010-10-musicstagescreen-350x483.jpg" class="alignright"></p>
+          </div>
+        </div>
+      </div>
 
-	<div id="footer" class="shadow">
-		<p>&copy; 2014 The Essendon Symphony | ABN 80 275 082 394 | <a href="http://andreasviklund.com/templates/inland-earth/">Template</a> by <a href="http://andreasviklund.com/">andreasviklund.com</a></p>
-	</div>
-</div>
+      <!-- Footer -->
+      <footer>
+        <p>&copy; 2015 The Essendon Symphony | ABN 80 275 082 394</p>
+      </footer>
+    </div>
 
-</body>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap-3.3.2.min.js"></script>
+  </body>
 </html>

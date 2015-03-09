@@ -10,14 +10,17 @@ a img{border:none;}
 h1,h2,h3,h4{color:#643b1b;font-weight:400;font-family:'Yanone Kaffeesatz';}
 i,em {font-style:italic;}
 b,strong {font-weight:700;}
-#sitetitle{background:#fff;float:left;padding:0 0 5px 30px;min-width:100%;}
-#sitetitle h1 {font-size:40px;color:#fff;}
+.sitetitle{border-radius: 0; -webkit-border-radius: 0; background:#fff;padding:10px 0 10px 0;}
+.navbar-brand {font-size:40px;font-family:'Yanone Kaffeesatz';}
 #navbar, footer, .shadow {background:#301909 url(../images/contentbg.jpg) top center no-repeat;}
 #navbar ul li a{color:#dadddd;}
 #navbar ul li a:hover{color:#fff;text-decoration:none;background-color:transparent;}
 .navbar {margin-bottom: 0px;}
 .fullwidth {padding:0px;}
+@media only screen
+and (min-device-width:960px) {
 .width960 {max-width:960px;}
+}
 footer p{color:#b37c39;margin:0;padding:15px 30px;text-align:center;}
 footer a{color:#b37c39;}
 footer a:hover{color:#fff;}
