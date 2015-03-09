@@ -11,6 +11,7 @@ h1,h2,h3,h4{color:#643b1b;font-weight:400;font-family:'Yanone Kaffeesatz';}
 i,em {font-style:italic;}
 b,strong {font-weight:700;}
 .sitetitle{border-radius: 0; -webkit-border-radius: 0; background:#fff;padding:10px 0 10px 0;}
+.sitetitlecontainer{padding:0 0 5px 15px;}
 .navbar-brand {font-size:40px;font-family:'Yanone Kaffeesatz';}
 #navbar, footer, .shadow {background:#301909 url(../images/contentbg.jpg) top center no-repeat;}
 #navbar ul li a{color:#dadddd;}
