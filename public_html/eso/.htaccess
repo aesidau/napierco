@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80 [OR]
+RewriteCond %{SERVER_HOST} ^ftp\.essendonsymphony\.com [NC] #bit of a hack, wouldn't normally go to the webserver with an ftp. domain
+RewriteRule ^(.*)$ https://www.essendonsymphony.com/$1 [R=301,L]
+</IfModule>
