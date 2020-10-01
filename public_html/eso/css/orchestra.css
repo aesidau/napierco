@@ -14,6 +14,9 @@ b,strong {font-weight:700;}
 .sitetitlecontainer{padding:0 0 5px 15px;}
 .navbar-brand {font-size:40px;font-family:'Yanone Kaffeesatz';}
 #navbar2 {padding-right:15px;}
+.btn-facebook {background: #3b5998; color: white; }
+.btn-twitter {background: #55acee; color: white; }
+.btn-instagram {background: #125688; color: white; }
 /*#navbar, footer, .shadow {background:#301909 url(../images/contentbg.jpg) top center no-repeat;}*/
 #navbar, footer, .shadow {background:#5c3015 url(../images/contentbg.jpg) top center no-repeat;}
 #navbar ul li a{color:#dadddd;}
